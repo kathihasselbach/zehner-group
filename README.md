@@ -24,7 +24,7 @@ The mockup for the codind exercise can be found here https://www.figma.com/file/
 ### Clone project
 ```sh
 git clone https://github.com/kathihasselbach/zehner-group.git
-cd website
+cd zehner-group
 ```
 ## What is Completed?
 - Menu is responsive
