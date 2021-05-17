@@ -36,4 +36,4 @@ cd website
 - Country (language): I would have added a dropdown to switch between the conutry options
 - Main Content: I would have added all the content (images, icons and text) and styled it accordingly to the mockup
 - Footer: I would have added all the content (images, icoss and text) and styled it accordingly to the mockup
-- Correct font-family: unfortunately Century Gothic is not available for free on Google Fonts, so I have used the font-family Lato, which is the closest to Century Gothic on Google Fonts
+- Correct font-family: unfortunately Century Gothic is not available for free on Google Fonts, so I have used the font-family Mulish, which is the closest to Century Gothic on Google Fonts
