@@ -37,3 +37,4 @@ cd website
 - Main Content: I would have added all the content (images, icons and text) and styled it accordingly to the mockup
 - Footer: I would have added all the content (images, icoss and text) and styled it accordingly to the mockup
 - Correct font-family: unfortunately Century Gothic is not available for free on Google Fonts, so I have used the font-family Mulish, which is the closest to Century Gothic on Google Fonts
+- Final step would be to minimze the css file to save page speed load time
