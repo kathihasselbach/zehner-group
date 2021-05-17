@@ -4,7 +4,6 @@
 body {
 	height: 100vh;
 	margin: 0;
-	/*font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;*/
 	font-family: 'Mulish', sans-serif;
 	font-size: 17px;
 	color: #000;
@@ -102,6 +101,7 @@ header .main__header {
 	padding: 35px 0;
 }
 /*** END Navigation ***/
+
 /*** START Mobile Hamburger ***/
 .mobile__hamburger-menu {
 	display: none;
@@ -119,6 +119,7 @@ header .main__header {
 	margin: 0 20px;
 }
 /*** END Mobile Hamburger ***/
+
 /*** START Logo ***/
 .header__logo {
 	flex: 0 0 20%;
@@ -224,6 +225,7 @@ header .main__header {
     line-height: 1.8em;
 }
 /*** END Submenu ***/
+
 /*** START Submenu Mobile ***/
 .mobile__submenu {
 	display: none;
@@ -245,6 +247,7 @@ header .main__header {
 	padding: 25px;
 }
 /*** END Submenu Mobile ***/
+
 /*** START Search ***/
 .search__overlay {
 	display: none;
@@ -298,6 +301,7 @@ header .main__header {
     top: 20px;
 }
 /*** END Search ***/
+
 /*** START Main (content) ***/
 .banner {
 	background: #E9E9E9;
@@ -346,3 +350,4 @@ header .main__header {
 		margin-right: 15px;
 	}
 }
+/*** END Breakpoints (Mobile) ***/
