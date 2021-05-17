@@ -1,0 +1,348 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap');
+
+body {
+	height: 100vh;
+	margin: 0;
+	/*font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;*/
+	font-family: 'Mulish', sans-serif;
+	font-size: 17px;
+	color: #000;
+}
+body.no-scroll {
+	overflow: hidden;
+}
+/*** START General styles ***/
+.container {
+	width: 100%;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+}
+.container-row {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.flexbox {
+	display: flex;
+}
+.align-item-center {
+	align-items: center;
+}
+.justify-content-end {
+	justify-content: flex-end;
+}
+.justify-content-center {
+	justify-content: center;
+}
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.navbar__nav li a {
+	color: #000;
+	text-decoration: none;
+}
+main img {
+	width: 100%;
+	max-width: 100;
+	height: auto;
+}
+main .container {
+	padding: 0;
+}
+
+/*** START .top__header ***/
+.top__header {
+	background-color: #000;
+	font-weight: 700;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+}
+/*** END .top__header ***/
+
+/*** START header ***/
+header {
+	background: #fff;
+	color: #000;
+}
+header .main__header {
+	display: flex;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+	padding: 25px 0;
+}
+/*** END header ***/
+
+/*** START Navigation ***/
+.main__nav, 
+.header__menu--right {
+	flex: 0 0 40%;
+	max-width: 40%
+}
+.navbar ul.nav {
+	display: flex;
+}
+.navbar ul.nav li {
+	margin-right: 70px;
+}
+.navbar ul.nav li:last-child {
+	margin-right: 0px;
+}
+.navbar ul.nav li a {
+	color: #000;
+	text-decoration: none;
+	font-weight: 700;
+	padding: 35px 0;
+}
+/*** END Navigation ***/
+/*** START Mobile Hamburger ***/
+.mobile__hamburger-menu {
+	display: none;
+}
+.mobile__hamburger--icon {
+	width: 24px;
+    height: 16px;
+	background: url(../icons/hamburger.png) no-repeat;
+}
+.mobile__hamburger--icon.is-visible {
+	background: url(../icons/hamburger-close.png) no-repeat;
+}
+.menu__icon-mobile {
+	display: none;
+	margin: 0 20px;
+}
+/*** END Mobile Hamburger ***/
+/*** START Logo ***/
+.header__logo {
+	flex: 0 0 20%;
+	max-width: 20%;
+}
+/*** END Logo ***/
+
+/*** START Menu Right ***/
+.header__content--right-wrap,
+.menu__right--icons {
+	display: flex;
+}
+.menu__right,
+.menu__right a {
+	font-weight: 700;
+}
+.menu__right,
+.menu__right--icons .menu__right--item {
+	margin-right: 35px;
+}
+.menu__right--icons .menu__right--item:last-child {
+	margin-right: 0;
+}
+.menu__right.menu__right--icons {
+	margin-right: 0;
+}
+.conutry__switch img,
+.country {
+	display: inline-block;
+}
+/*** END Menu Right ***/
+
+/*** START Submenu + image ***/
+.nav__submenu {
+	display: none;
+	margin-top: 3px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: fixed;
+	z-index: 200;
+	background: #fff;
+	width: 100%;
+}
+.nav__submenu.active {
+	display: flex;
+}
+.submenu {
+	flex: 0 0 15%;
+    max-width: 15%;
+}
+.navbar-sub {
+	flex-direction: column;
+}
+.navbar-sub li {
+	position: relative;
+	padding: 15px 0;
+}
+.navbar-sub li a {
+	font-weight: 400;
+}
+.navbar-sub li.active a {
+	color: #17A7E0;
+}
+.navbar-sub li.divider {
+	border: 1px solid #E2E2E2;
+	padding: 0;
+	margin: 30px 0;
+}
+.navbar-sub li.active::after {
+	content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+	background-image: url('../icons/arrow.png');
+}
+.navbar-sub li.divider::after {
+	display: none;
+}
+.submenu__image--item {
+	display: none;
+}
+.submenu__image--item.active {
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 75%;
+	max-width: 75%;
+}
+.submenu__image {
+	flex: 0 0 65%;
+    max-width: 65%;
+    margin-left: 15%;
+}
+.submenu__image p {
+	flex: 0 0 70%;
+    max-width: 70%;
+	color: #636363;
+    line-height: 1.8em;
+}
+/*** END Submenu ***/
+/*** START Submenu Mobile ***/
+.mobile__submenu {
+	display: none;
+	position: fixed;
+	width: 260px;
+	z-index: 100;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+	height: 100%;
+}	
+.mobile__submenu.is-visible {
+	display: block;
+}
+.mobile__submenu li {
+	padding-bottom: 25px
+}
+.mobile__submenu--primary, 
+.mobile__submenu--secondary {
+	padding: 25px;
+}
+/*** END Submenu Mobile ***/
+/*** START Search ***/
+.search__overlay {
+	display: none;
+	position: fixed;
+	top: 45px;
+	height: 90px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 5;
+}
+.search__overlay.is-visible {
+	display: block;
+}
+.search__overlay--content {
+	position: relative;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.search__form {
+	margin: 0px 50px 0 20px;
+    max-width: 100%;
+    width: 100%;
+	border-bottom: 1px solid #000000;
+}
+.search__overlay input {
+	background: url('../icons/search.png') no-repeat left center;
+	border: 0;
+	padding: 10px 30px;
+	width: 100%;
+	font-size: 15px;
+	color: #000;
+}
+#searchForm input::-webkit-input-placeholder { /* Edge */
+  color: black;
+}
+#searchForm input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+}
+#searchForm input::placeholder {
+  color: black;
+  opacity: 1;
+}
+.search__overlay--close {
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+/*** END Search ***/
+/*** START Main (content) ***/
+.banner {
+	background: #E9E9E9;
+	height: 620px;
+	display: flex;
+}
+.banner__content-wrap {
+	display: flex;
+    align-items: center;
+	height: 100%;
+	width: 100%;
+}
+.banner__image,
+.banner__content {
+	flex: 0 0 50%;
+	width: 50%;
+}
+.banner__image img {
+	width: 50%;
+}
+/*** END Main (content) ***/
+
+/*** START Breakpoints (Mobile) ***/
+@media (max-width: 991px) {
+	.mobile__hamburger-menu,
+	.menu__icon-mobile {
+		display: block;
+	}
+	.hidden__mobile {
+		display: none;
+	}
+	.container {
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+	.main__nav, .header__menu--right {
+    	flex: 0 0 25%;
+    	max-width: 25%;
+	}
+	.header__logo {
+    	flex: 0 0 50%;
+    	max-width: 50%;
+    }
+	.menu__right, 
+	.menu__right--icons .menu__right--item {
+		margin-right: 15px;
+	}
+}
