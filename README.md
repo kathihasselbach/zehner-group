@@ -13,7 +13,6 @@ The mockup for the codind exercise can be found here https://www.figma.com/file/
 - jQuery
 
 ## Structure
-
 - `index.html` is the index files for this exercise
 - `css/styles.css` styling for this exercise
 - `js/script.js` javascript (jQuery) for this exercise
@@ -32,7 +31,12 @@ cd zehner-group
 - Submenu opens when hovering over menu item
 - Submenu changes image on the right when hovering over submenu item
 
-## What is Missing?
+## Design Questions
+- What happens with the top-header (black) when scrolling down on the page?
+- What happens with the header when scrolling down? Is it fixed and always visible or is it only visible when user is on top of the page?
+- Where is the country switch on mobile?
+
+## What is Missing and would be done with more time?
 - Country (language): I would have added a dropdown to switch between the conutry options
 - Main Content: I would have added all the content (images, icons and text) and styled it accordingly to the mockup
 - Footer: I would have added all the content (images, icoss and text) and styled it accordingly to the mockup
