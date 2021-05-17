@@ -1,7 +1,7 @@
 # Zehner Group: Dev Exercise
-This repository contains the files for the coding exercise with Zehner Group
+This repository contains the files for the coding exercise with Zehner Group.
 
-The mockup for the codind exercise can be found here https://www.figma.com/file/cVzImwKchhNv8cXmY7teFa/Dev-Test?node-id=1%3A729
+The mockup for the coding exercise can be found here https://www.figma.com/file/cVzImwKchhNv8cXmY7teFa/Dev-Test?node-id=1%3A729
 
 ## Task
 - Code the above mockup in a limited time of 3-4 hours
@@ -9,7 +9,7 @@ The mockup for the codind exercise can be found here https://www.figma.com/file/
 
 ## Technologies
 - HTML
-- CSS
+- CSS (no Bootstrap)
 - jQuery
 
 ## Structure
